@@ -32,3 +32,4 @@ yarn dev
   ├── package.json
   └── vite.config.ts
 ```
+# websocket-debugger
