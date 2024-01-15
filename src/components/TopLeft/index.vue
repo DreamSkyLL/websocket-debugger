@@ -131,7 +131,7 @@ watch(() => props.receiveList.length, () => {
       border-bottom: 1px solid #EEE;
 
       .time {
-        width: 100px;
+        width: 120px;
         overflow: hidden;
         color: #CCC;
         font-family: Fira Code;
@@ -143,6 +143,7 @@ watch(() => props.receiveList.length, () => {
       }
 
       .content {
+        word-break:break-all;
         overflow: hidden;
         color: #333;
         text-overflow: ellipsis;

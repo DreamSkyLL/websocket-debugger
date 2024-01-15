@@ -99,7 +99,7 @@ const handleDetail = () => {
     border-bottom: 1px solid #EEE;
 
     .time {
-      width: 100px;
+      width: 120px;
       color: #CCC;
       font-family: Fira Code;
       font-size: 14px;
@@ -109,6 +109,7 @@ const handleDetail = () => {
     }
 
     .content {
+      word-break:break-all;
       overflow: hidden;
       color: #333;
       text-overflow: ellipsis;
